@@ -44,5 +44,24 @@ iframe#tela {
     left: 22px; /* top e left feitos por tentativa e erro */
     width: 269px;
     height: 471px; /* também feitos por tentativa e erro */
-    
+}
+
+section#redes-sociais {
+    float: right;
+}
+
+section#redes-sociais img {
+    display: block;
+    width: 50px;
+    margin: 20px;
+    border-radius: 50%; /* significa que 50% da imagem é arrendodado. 50% de um lado e 50% de outro formará um círculo*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box; /* borda passa a fazer parte da caixa */
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-3px,-3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform .5s, border 1s; /* tempo de transição para os efeitos */
 }
